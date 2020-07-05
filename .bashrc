@@ -6,5 +6,5 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-PS1='\[\033[38;5;29m\]\u \w \$: '
+PS1='\[\033[38;5;29m\]\u \w \$ \[\033[0m\]'
 alias pac="sudo pacman -Syu"
